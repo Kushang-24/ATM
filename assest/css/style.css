@@ -1,13 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  /* background-image: url(/assest/images/2.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   margin-top: 5%;
   overflow: hidden;
 }
+
 #atm-container {
   border-radius: 5% 91% 5% 93% / 93% 5% 91% 5%;
   padding: 20px;
@@ -17,7 +14,8 @@ body {
   background: radial-gradient(circle, rgb(204, 197, 197) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
-input,button {
+input,
+button {
   margin: 10px;
   padding: 5px;
 }
@@ -28,4 +26,45 @@ input,button {
   border-radius: 50%;
   padding: 5% 0;
   background: radial-gradient(circle, rgb(125, 168, 168) 0%, rgba(215, 206, 192, 1) 100%);
+}
+
+.tooltip-body {
+  width: 10%;
+}
+
+#amount {
+  display: none;
+}
+
+#option-btn {
+  display: none;
+  margin-top: 20%;
+  height: 70%;
+}
+
+#user-name {
+  display: inline-flex;
+}
+
+.col-10 {
+  width: 89.5% !important;
+}
+
+input {
+  width: 30rem;
+  height: 45px;
+  padding: 1em;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+#toggler {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }

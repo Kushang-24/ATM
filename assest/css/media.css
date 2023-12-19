@@ -1,25 +1,18 @@
 @media (max-width: 1220px) {}
 
 @media (max-width:1024px) {
-    .user-info {
-        width: 22%;
-        height: 90%;
-        padding-top: 60px !important;
-    }
     #atm-container {
         width: 300px;
     }
     .col-sx-12{
         width: 100%;
     }
+    .user-pin{
+        margin-left: -11px;
+    }
 }
 
 @media (max-width:768px) {
-    .user-info {
-        width: 28%;
-        height: 90%;
-        padding-top: 60px !important;
-    }
     #atm-container {
         width: 300px;
     }
@@ -29,42 +22,36 @@
 }
 
 @media (max-width:425px) {
-    .user-info {
-        width: 47%;
-        height: 90%;
-        padding-top: 60px !important;
-    }
     #atm-container {
         width: 300px;
     }
     .col-sx-12{
         width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
     }
 }
 
 @media (max-width:375px) {
-    .user-info {
-        width: 56%;
-        height: 90%;
-        padding-top: 60px !important;
-    }
     #atm-container {
         width: 300px;
     }
     .col-sx-12{
         width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
     }
 }
 @media (max-width:320px) {
-    .user-info {
-        width: 60%;
-        height: 90%;
-        padding-top: 60px !important;
-    }
     #atm-container {
         width: 300px;
     }
     .col-sx-12{
         width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
     }
 }
